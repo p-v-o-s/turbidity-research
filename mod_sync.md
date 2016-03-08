@@ -54,9 +54,9 @@ Here's another trick:  because we are in control of modulating the signal, and b
 
 One trick that emerges here: we need to be careful about any phase differences between our emitter frequency and what arrives at the detector.  Because of reflections and other interactions, the 'peak' of our emitter frequency might not overlap precisely with 'peaks' at our detector.  This can either be accounted for manually (by introducing timing delays in our synchronized measuremend) or through more sophisticated circuitry ('phase lock loop' circuits often have circuits that can shift the phase of detected signals to match the modulation clock frequency) or digital signal processing techniques.
 
-## Next steps
+## Implementation 
 
-The easiest approach to begin with seems to be: modulating the emitter (LED) at a particular frequency (1 kHz, say), and then place a band-pass filter on the detection circuit (a photodiode) that is fairly tightly focused on the modulation frequency (1 kHz).  The synchronous detection circuit would then not be very hard to implement as a next further step.  The basic experiment might be:  place the photodiode 
+Of the techniques above, the easiest to implement quickly seems to be: modulating the emitter (LED) at a particular frequency (1 kHz, say), and then place a band-pass filter on the detection circuit (a photodiode) that is fairly tightly focused on the modulation frequency (1 kHz).  The synchronous detection circuit would then not be very hard to implement as a next further step.  The basic experiment might be:  place the photodiode 
 
 ## References
 
