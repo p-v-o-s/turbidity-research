@@ -48,5 +48,6 @@ cube([s,s/1.5,s]);
 
 }
 
+rotate([0,0,140])
 example004();
 
