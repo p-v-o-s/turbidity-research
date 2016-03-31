@@ -6,11 +6,11 @@ BODY_H = 80;
 BODY_R = 14;
 
 //EMITTER constraints
-EMITTER_HOLE_R = 6/2;  //6mm diameter LEDs
+EMITTER_HOLE_R = 5/2;  //5mm diameter LEDs
 EMITTER_HOLE_L = 2*BODY_H; //arbitrary
 
 //DETECTOR constraints
-DETECTOR_HOLE_R = 6/2;  //6mm diameter photodiode
+DETECTOR_HOLE_R = 5/2;  //5mm diameter photodiode
 DETECTOR_HOLE_L = 2*BODY_H; //arbitrary
 
 //WINDOW SLOT
